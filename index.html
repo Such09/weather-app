@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Weather Data</h2>
+    <br>
+
+    <label for="city">Choose city:</label>
+    <select name="city" id="dropdown">
+      <option value="">---Select---</option>
+    </select>
+    <br><br>
+
+    <div class="box">
+      <label for="temp">Tempreture:</label>
+      <div id="temp"></div>
+    </div>
+
+    <div class="box">
+      <label for="temp_f">Condition:</label>
+      <div id="condition"></div>
+    </div>
+
+    <div class="box">
+      <label for="wind">Humidity:</label>
+      <div id="humidity"></div>
+    </div>
+
+    <div class="box">
+      <label for="wind">wind kph:</label>
+      <div id="wind"></div>
+    </div>
+
+    <button>Show data</button>
+  </div>
+
+  <script src="city.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

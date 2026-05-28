@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url("weather_background.png") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .container {
+    height: 450px;
+    width: 400px;
+    border: 1px solid lightgray; 
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+} */
+
+.container {
+  width: 300px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 25px;
+  color: white;
+}
+
+.container:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+/* Heading */
+h2 {
+    margin-top: 10px;
+    color: #1E3A8A;
+}
+
+/* dropdown (select */
+#dropdown {
+    height: 25px;
+    width: 143px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    color: darkslategrey;
+}
+
+/* Lables */
+label {
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.box {
+    display: flex;
+    margin-top: 20px;
+}
+
+#temp{
+    height: 25px;
+    width: 150px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+}
+
+#condition{
+    height: 25px;
+    width: 163px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+}
+#humidity,
+#wind {
+    height: 25px;
+    width: 170px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkslategrey;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+    /* background-color: #2563eb;
+    color: white; */
+    background: #38BDF8;
+    color: #0f172a;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+button:hover {
+  background: #0ea5e9;
+  color: white;
+} 
